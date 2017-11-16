@@ -1,0 +1,36 @@
+/* 块级注释,把偶才能到CSS中 */
+.mycolor {
+  color: #ff8000;
+  width: 100%;
+}
+.ui-input {
+  border: 1px solid #ebebeb;
+  outline: none;
+  font-size: 12px;
+}
+.ui-input:focus,
+.ui-input:active {
+  box-shadow: 0 0 0 rgba(123, 123, 123, 0.4);
+  outline: none;
+}
+.ui-input > .text {
+  width: 100px;
+}
+.input-wrapper {
+  color: #ff8000;
+  width: 100%;
+}
+body {
+  font-size: 12px;
+  color: #333;
+}
+body div {
+  widows: 200px;
+  height: 200px;
+  border: 1px solid #333;
+  margin: 0 auto;
+}
+body div:first-child {
+  display: flex;
+  justify-content: flex-start;
+}
